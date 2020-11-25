@@ -1,4 +1,4 @@
-###Console guessing game "Hangman"
+#Console guessing game "Hangman"
 
 Usage
 ---

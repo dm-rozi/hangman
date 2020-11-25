@@ -1,13 +1,13 @@
 require_relative 'lib/console_interface'
 require_relative 'lib/game'
 
+require 'colorize'
+
 # 1. Greetings
 puts "Всем привет!"
 
 # 2. Read the word from file
 word = File.readlines("#{__dir__}/data/words.txt", chomp: true, encoding: "UTF-8").sample
-
-puts word
 
 game = Game.new(word)
 
